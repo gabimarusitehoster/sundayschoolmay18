@@ -1,0 +1,172 @@
+/* Global reset and modern base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
+  line-height: 1.8;
+  padding: 40px 20px;
+  max-width: 960px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #830000, #b71c1c);
+  color: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+/* Section Titles */
+section h3 {
+  color: #830000;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+  margin-top: 40px;
+}
+
+/* Paragraphs */
+section p,
+li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/* Lists */
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Bible Passage Box */
+.bible-passage {
+  background-color: #fffbea;
+  border-left: 6px solid #f57c00;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Memory Verse */
+.memory-verse {
+  background: #e3f2fd;
+  border-left: 6px solid #1976d2;
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+/* Hymn styling */
+.hymn {
+  background: #fce4ec;
+  border-left: 6px solid #ad1457;
+  padding: 16px 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.hymn p {
+  margin-bottom: 8px;
+}
+
+/* Activity + Questions */
+.activity, .questions, .conclusion {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-left: 4px solid #830000;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.03);
+}
+
+/* Footer / Contact */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.footer a {
+  color: #830000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #d32f2f;
+}
+
+/* WhatsApp Icon */
+.whatsapp-contact {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.whatsapp-contact a {
+  background: #25d366;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 50px;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+  transition: background 0.3s ease;
+}
+
+.whatsapp-contact a:hover {
+  background: #1ebc5d;
+}
+
+.whatsapp-contact i {
+  font-size: 1.2rem;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h2 {
+    font-size: 1.2rem;
+  }
+}
